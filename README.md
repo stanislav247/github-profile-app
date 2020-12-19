@@ -19,10 +19,10 @@
 <h2>:milky_way: Screenshots: </h2>
 
 1)
-<img src="https://ibb.co/p4TzFCb" />
+
 
 2)
-<img src="https://ibb.co/fdV4M76" />
+
 
 
 
