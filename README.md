@@ -17,11 +17,8 @@
 </ul> 
 
 <h2>:milky_way: Screenshots: </h2>
-
-1)
-
-
-2)
+![react-1](https://user-images.githubusercontent.com/57393996/102698922-a8fb0100-4249-11eb-86c2-78b9beb7d993.png)
+![react2](https://user-images.githubusercontent.com/57393996/102698929-b87a4a00-4249-11eb-8b29-5bd83fcf5608.png)
 
 
 
