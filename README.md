@@ -6,7 +6,7 @@
 <p>  This application demonstrates the use of React Components to handle data from API. The app uses GitHub's API to pull in data from a user's profile. Each user is represented as a 'Card' component</p>
 
 <h2>Link :point_down: </h2>
-<a href="#">React Github Profile App</a>
+<a href="https://lucid-meninsky-31bb6a.netlify.app/">React Github Profile App</a>
 
 <h2>:hammer: Used technologies </h2>
 <ul>
@@ -15,6 +15,8 @@
   <li><a href="https://github.com/axios/axios">Axios</a></li>
   <li>Github API</li>
 </ul> 
+
+
 
 
 
