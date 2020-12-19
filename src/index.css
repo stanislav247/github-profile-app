@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*Import Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  font-family: "Texturina", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Buttons remove default bs effects*/
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+button::active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*navbar*/
+.navbar {
+  /* background-color: #0cbaba !important;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%) !important; */
+  background: transparent;
+}
+
+.input-field {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-color: #5bc0de !important;
+}
+
+input::placeholder {
+  color: #ccd9ed !important;
+  font-family: "Texturina", sans-serif;
+}
+
+input {
+  color: #ccd9ed !important;
+  font-family: "Texturina", sans-serif;
+}
+
+/* about */
+.about {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Texturina", sans-serif;
+}
+
+/* author profile (footer)*/
+.author {
+  border-radius: 50%;
+  float: right;
+  animation-name: author;
+  animation-timing-function: ease;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+
+.author:hover {
+  animation: none;
+}
+
+@keyframes author {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 1) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1) translateY(-30px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+/* card*/
+.card {
+  font-family: "Texturina", sans-serif;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3rem;
+  max-width: 700px;
+  max-height: 500px;
+}
+
+.avatar {
+  border: 8px solid #0d324d;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.user-info {
+  color: #eee;
+  font-weight: bold;
+}
+
+.user-info h2 {
+  margin-top: 0;
 }
