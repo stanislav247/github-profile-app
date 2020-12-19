@@ -10,7 +10,7 @@
 
 <h2>:hammer: Used technologies </h2>
 <ul>
-  <li><a href="https://reactjs.org/">React/a></li>
+  <li><a href="https://reactjs.org/">React</a></li>
   <li><a href="https://react-bootstrap.github.io/">React Bootstrap</a></li>
   <li><a href="https://github.com/axios/axios">Axios</a></li>
   <li>Github API</li>
