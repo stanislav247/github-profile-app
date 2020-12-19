@@ -1,1 +1,2 @@
-point_right Project Introduction point_left
+
+:point_right: Project Introduction :point_left:
